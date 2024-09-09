@@ -5,6 +5,8 @@ import React from 'react';
 import { Providers } from '@/app/providers';
 import classNames from 'classnames';
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: 'Ganesh Rathinavel',
   description: 'Creator & Open-Source Enthusiast',
