@@ -21,10 +21,6 @@ export const metadata: Metadata = {
   ],
 };
 
-export const config = {
-  runtime: 'experimental-edge',
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
