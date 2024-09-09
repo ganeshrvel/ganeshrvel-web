@@ -7,7 +7,18 @@ import classNames from 'classnames';
 
 export const metadata: Metadata = {
   title: 'Ganesh Rathinavel',
-  description: 'Ganesh Rathinavel',
+  description: 'Creator & Open-Source Enthusiast',
+  keywords:
+    'Ganesh Rathinavel, Open-Source, Developer, Software Engineer, Full-Stack Developer, Technology, Projects, Contributions',
+  robots: 'index, follow',
+  creator: 'Ganesh Rathinavel',
+  publisher: 'Ganesh Rathinavel',
+  manifest: '/site.webmanifest',
+  icons: [
+    { rel: 'icon', url: '/favicon-32x32.png', sizes: '32x32' },
+    { rel: 'icon', url: '/favicon-16x16.png', sizes: '16x16' },
+    { rel: 'apple-touch-icon', url: '/apple-touch-icon.png', sizes: '180x180' },
+  ],
 };
 
 export default function RootLayout({
