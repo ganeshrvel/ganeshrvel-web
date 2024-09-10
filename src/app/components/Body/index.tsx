@@ -275,10 +275,18 @@ export default async function Body() {
       </div>
       <div className='pt-0 font-light text-sm opacity-85 leading-7 text-left'>
         My packages in{' '}
-        <ALink
-          href='https://github.com/ganeshrvel#popular-reactjselectronjsnodejs-projects'
-          text='React.js/Node.js/Electron.js'
-        />
+        <span className='hidden sm:inline'>
+          <ALink
+            href='https://github.com/ganeshrvel#popular-reactjselectronjsnodejs-projects'
+            text='React.js/Node.js/Electron.js'
+          />
+        </span>
+        <span className='sm:hidden'>
+          <ALink
+            href='https://github.com/ganeshrvel#popular-reactjselectronjsnodejs-projects'
+            text='Node.js'
+          />
+        </span>
         ,{' '}
         <ALink
           href='https://github.com/ganeshrvel#-rust-projects'
