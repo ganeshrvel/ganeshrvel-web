@@ -274,15 +274,15 @@ export default async function Body() {
         <span className='font-bold'>180+ countries</span>.
       </div>
       <div className='pt-0 font-light text-sm opacity-85 leading-7 text-left'>
-        My packages in <span className='font-bold'>React.js/Node.js</span>,{' '}
+        My packages in{' '}
         <ALink
-          href='https://github.com/ganeshrvel#-rust-projects'
-          text='Rust'
+          href='https://github.com/ganeshrvel#popular-reactjselectronjsnodejs-projects'
+          text='React.js/Node.js/Electron.js'
         />
         ,{' '}
         <ALink
-          href='https://github.com/ganeshrvel#popular-reactjselectronjsnodejs-projects'
-          text='Electron.js'
+          href='https://github.com/ganeshrvel#-rust-projects'
+          text='Rust'
         />
         ,{' '}
         <ALink
