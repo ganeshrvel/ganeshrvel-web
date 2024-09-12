@@ -55,10 +55,7 @@ const portfolioRepoInfo: Record<string, PortfolioRepoInfo & PortfolioCardInfo> =
     },
     flutter_mobx_dio_boilerplate: {
       slug: 'flutter_mobx_dio_boilerplate',
-      programmingLanguages: [
-        ProgrammingLang.JavaScript,
-        ProgrammingLang.ElectronJS,
-      ],
+      programmingLanguages: [ProgrammingLang.Flutter, ProgrammingLang.Dart],
       override: {
         name: 'Flutter Mobx Dio Boilerplate',
       },
